@@ -1,0 +1,52 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.settings__setting:nth-child(3) {
+  border-bottom: none;
+}
+
+.settings__setting--grey {
+  opacity: 0.5;
+}
+
+.settings__setting-column {
+  display: flex;
+}
+
+.settings__setting__dot {
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  font-size: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-left: 8px;
+}
+/* Setting 구분선 그리기?? 2가지 방법으로 했는데 
+구분선이 border로하니까 양끝에 안 닿음
+
+.settings-list {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.settings__setting:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 35px;
+} */
